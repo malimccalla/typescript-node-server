@@ -1,0 +1,39 @@
+{
+  "defaultSeverity": "error",
+  "extends": ["tslint:latest", "tslint-config-prettier"],
+  "jsRules": {},
+  "rules": {
+    "flowtype/generic-spacing": "off",
+    "import/order": ["error", { "newlines-between": "always-and-inside-groups" }],
+    "import/default": "off",
+    "import-spacing":true,
+    "ordered-imports": [
+      true,
+      {
+        "import-sources-order": "lowercase-last",
+        "named-imports-order": "lowercase-first"
+      }
+    ],
+    "no-undef": "error",
+    "arrow-parens": true,
+    "no-undef-init": "error",
+    "no-param-reassign": "off",
+    "object-curly-newline": "off",
+    "space-before-function-paren": true,
+    "no-underscore-dangle": "off",
+    "no-console": true,
+    "func-names": "off",
+    "semi": "off",
+    "no-unused-expressions": [
+      "error",
+      {
+        "allowShortCircuit": true,
+        "allowTernary": true,
+        "allowTaggedTemplates": true,
+      },
+    ],
+    "no-unused-vars": ["error", { "vars": "all", "args": "none", "ignoreRestSiblings": true }],
+    "function-paren-newline": "off",
+  },
+  "rulesDirectory": []
+}
