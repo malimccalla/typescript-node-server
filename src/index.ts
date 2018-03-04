@@ -1,5 +1,4 @@
 import { GraphQLServer } from 'graphql-yoga';
-import { Context } from 'vm';
 
 const typeDefs = `
   type Query {
